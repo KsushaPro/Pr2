@@ -24,5 +24,12 @@ public class Maxmin {
             }
         }
         System.out.println("Минимальный элемень  массива = " + min);
+
+        // тернарник
+        int min1 = array1[0];
+        for (int i = 0; i < array1.length; i++) {
+            min1 = min1 > array1[i] ? array1[i] : min1; // тернарный оператор
+        }
+        System.out.println("Минимальный элемень  массива (тернарник) = " + min1);
     }
 }
