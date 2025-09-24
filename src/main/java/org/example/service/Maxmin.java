@@ -15,7 +15,7 @@ public class Maxmin {
                 max = array1[i];
             }
         }
-        System.out.println("Максимальный элемень  массива = " + max);
+        System.out.println("Максимальный элемент  массива = " + max);
 
         int min = array1[0];
         for (int i = 0; i < array1.length; i++) {
@@ -23,13 +23,13 @@ public class Maxmin {
                 min = array1[i];
             }
         }
-        System.out.println("Минимальный элемень  массива = " + min);
+        System.out.println("Минимальный элемент  массива = " + min);
 
         // тернарник
         int min1 = array1[0];
         for (int i = 0; i < array1.length; i++) {
             min1 = min1 > array1[i] ? array1[i] : min1; // тернарный оператор
         }
-        System.out.println("Минимальный элемень  массива (тернарник) = " + min1);
+        System.out.println("Минимальный элемент  массива (тернарник) = " + min1);
     }
 }

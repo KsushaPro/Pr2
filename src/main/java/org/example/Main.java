@@ -7,7 +7,7 @@ import org.example.service.Dog;
 public class Main {
     public static void main(String[] args) {
         Dog[] dogs = new Dog[3];
-        dogs[0] = new Dog("Шарик", 1000 - 7);
+        dogs[0] = new Dog("Шарик", 993);
         dogs[1] = new Dog("Тобик", 52);
         dogs[2] = new Dog("Булочка", 10);
 
